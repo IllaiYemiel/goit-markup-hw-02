@@ -1,0 +1,188 @@
+:root {
+    --primary-text-color: #212121;
+    --second-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #212121;
+}
+
+.logo > span {
+    color: var(--accent-color);
+}
+
+.logo {
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo:hover,
+.logo:focus {
+color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* Site nav */
+
+.site-nav .link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+.site-nav .link:focus,
+.site-nav .link:hover {
+    color: var(--accent-color);
+}
+
+/* Auth nav */
+
+.auth-nav .link {
+    color: #212121;
+    text-decoration: none;
+}
+.auth-nav .link:focus,
+.auth-nav .link:hover {
+    color: var(--accent-color);
+}
+
+/* Герой */
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+
+    background: #2196F3;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
+}
+
+/* Особливості */
+
+.exclusive-list {
+    list-style: none;
+}
+
+.exclusive-title {
+    
+}
+
+.exclusive-text {
+    color: var(--second-text-color);
+}
+
+/* Чим ми займаємося */
+
+.direction {
+}
+
+.direction-title {}
+
+.direction-list {
+    list-style: none;
+}
+
+/* Наша команда */
+
+.team {
+    background: #F5F4FA;
+}
+
+.team-title {
+}
+
+.team-list {
+    list-style: none;
+}
+
+.team-list .item {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px
+}
+
+.team-list .name {
+}
+
+.team-list .text {
+    color: var(--second-text-color);
+}
+
+/* Футер */
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-logo {
+    color: #FFFFFF;
+}
+
+.footer-logo > span {
+    color: var(--accent-color);
+}
+
+.footer > .link {
+    color: #FFFFFF;
+}
+
+.footer-contacts {
+    list-style: none;
+}
+
+.link-address {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-contacts .link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+/* Фільтри */
+
+.filter-list {
+    list-style: none;
+}
+
+.filter-btn {
+    background: #F5F4FA;
+    border: none;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+/* Портфоліо */
+
+.works-list {
+    list-style: none;
+}
+
+.works-item {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.works-text {
+    color: var(--second-text-color);
+}
